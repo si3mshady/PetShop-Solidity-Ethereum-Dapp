@@ -85,8 +85,8 @@ App = {
     var petId = parseInt($(event.target).data('id'));
 
     web3.eth.getAccounts( (err,accounts) => {
-      if (error) {
-        console.log(error);
+      if (err) {
+        console.log(err);
 
       }
 
